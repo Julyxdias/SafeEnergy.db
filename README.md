@@ -27,9 +27,9 @@ services:
     image: postgres:15
     container_name: energysafe_postgres
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 1234
-      POSTGRES_DB: energysafe
+      POSTGRES_USER: *******
+      POSTGRES_PASSWORD: *******
+      POSTGRES_DB: ********
     ports:
       - "5432:5432"
     volumes:
