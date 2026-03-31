@@ -9,7 +9,7 @@ O banco é executado via Docker localmente e hospedado no **Render** em produç�
 
 | Ambiente | Detalhes |
 |---|---|
-| Local (Docker) | `postgresql://postgres:1234@localhost:5432/energysafe` |
+| Local (Docker) | `postgresql://postgres:******@localhost:5432/energysafe` |
 | Produção (Render) | Variável de ambiente `DATABASE_URL` no serviço BackendSafe |
 
 ---
